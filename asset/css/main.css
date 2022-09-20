@@ -1,0 +1,59 @@
+body {
+    font-family: 'Andada Pro', serif;
+}
+img {
+    max-width: 100%;
+}
+#logo {
+    text-align: center;
+}
+#heading_text {
+    text-align: center;
+}
+#heading_text h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+.heading_small {
+    font-size: 24px !important;
+}
+#heading_text hr{
+    max-width: 80px;
+    border: 0;
+    border-top: 5px solid #f80758;
+}
+#clint_img {
+    text-align: center;
+}
+#clint_img img {
+    border-radius: 50%;
+    border:10px solid rgb(247 247 247);
+    box-shadow: 0px 0px 20px 3px #ccc;
+    margin: 30px 0;
+}
+#commentWorp {
+    text-align: center;
+}
+#commentWorp button {
+    background-color: #f80758;
+    color: white;
+    border: 0;
+    line-height: 22px;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    padding: 15px 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 14px -6px #000;
+    max-width: 274px;
+    width: 100%;
+
+}
+#commentWorp textarea {
+    padding: 15px;
+    line-height: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
